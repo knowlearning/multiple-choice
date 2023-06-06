@@ -2,6 +2,7 @@ import { validate as validateUUID } from 'uuid'
 import { browserAgent, vuePersistentComponent } from '@knowlearning/agents'
 import Customizer from './customizer.vue'
 import Player from './player.vue'
+import './index.css'
 
 window.Agent = browserAgent()
 

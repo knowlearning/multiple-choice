@@ -5,7 +5,7 @@
       <label>
         <input
           type="radio"
-          :value="c"
+          :value="i"
           v-model="choice"
         />
         {{ c }}
@@ -19,7 +19,7 @@
 export default {
   props: {
     question: String,
-    answer: String,
+    answer: Number,
     choices: Array
   },
   data: () => ({
