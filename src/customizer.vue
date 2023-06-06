@@ -11,7 +11,8 @@
         <button @click="choices.splice(i, 1)">x</button>
       </li>
       <li>
-        <button @click="choices.push('')">add choice</button>
+        <input type="radio" disabled />
+        <button @click="choices.push('')">+</button>
       </li>
     </ul>
     <button @click="save">Save</button>
